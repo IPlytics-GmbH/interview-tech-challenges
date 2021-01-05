@@ -92,7 +92,7 @@ ingredients:
     structure able to retrieve values associated to arbitrary keys –
     such as strings – efficiently. In JavaScript we can either use the
     ES6
-    `Map`{.css-vgof0f} or any plain object `{}`{.css-vgof0f}: remember
+    `Map` or any plain object `{}`; remember
     that our cache is no different from a fixed-capacity key-value
     store.
 2.  A way to store our items in the order of their last access. What's
@@ -105,9 +105,9 @@ ingredients:
 Minimally, our implementation needs to be able to run the two following
 operations:
 
--   `#.set`{.css-vgof0f}: associating a value to the given key, while
+-   `#.set`: associating a value to the given key, while
     evicting the least recently used item if the cache is already full.
--   `#.get`{.css-vgof0f}: retrieving the value associated to the given
+-   `#.get`: retrieving the value associated to the given
     key if this one exists at all in the cache, while updating the
     underlying list to keep LRU order.
 
