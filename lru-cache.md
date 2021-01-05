@@ -98,7 +98,9 @@ ingredients:
 2.  A way to store our items in the order of their last access. What's
     more, we will need to move items around efficiently. That's why
     people naturally lean toward a [doubly-linked
-    list](https://en.wikipedia.org/wiki/Doubly_linked_list) for the job.
+    list](https://en.wikipedia.org/wiki/Doubly_linked_list) for the job. 
+    But there could be other more efficient ways by leveraging the power 
+    of Javascript Arrays & the rich family of functions that is built in.
 
 Minimally, our implementation needs to be able to run the two following
 operations:
