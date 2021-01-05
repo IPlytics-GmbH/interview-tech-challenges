@@ -99,8 +99,8 @@ ingredients:
     more, we will need to move items around efficiently. That's why
     people naturally lean toward a [doubly-linked
     list](https://en.wikipedia.org/wiki/Doubly_linked_list) for the job. 
-    But there could be other more efficient ways by leveraging the power 
-    of Javascript Arrays & the rich family of functions that is built in.
+3.  But there could be other more efficient ways, per example by leveraging the power 
+    of Javascript Arrays & the rich family of functions that is built in already.
 
 Minimally, our implementation needs to be able to run the two following
 operations:
