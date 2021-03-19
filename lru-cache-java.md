@@ -1,5 +1,5 @@
-Implementing an efficient LRU cache in JavaScript
--------------------------------------------------
+Implementing an efficient LRU cache in Java
+--------------------------------------------
 
 Let's say we need to process a very large – hundreds of gigabytes large
 – csv file containing urls we will need to download. To ensure we are
