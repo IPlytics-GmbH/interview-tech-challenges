@@ -102,7 +102,7 @@ operations:
 
 And here is how we could use such a cache:
 
-    // Let's create a cache able to contain 3 itemsconst 
+    // Let's create a cache able to contain 3 items 
     var cache = new LRUCache(3);
 
     // Let's add items
