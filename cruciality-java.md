@@ -3,10 +3,10 @@ Arranging Cruciality Requests
 
 Our system processes different kinds of information for our customers. One of our analyses, called "cruciality analysis", 
 runs based on a set of companies provided as a parameter. Our back-end application receives this information and sends a 
-final request to our processing algorithm. The time it takes for us to process the requests is logaritmic - *log2(n)*, 
-where **n** is the amount of companies provided by the customer. Because of this we'd like to prioritise processing 
-requests where the number of companies is larger. Your task is to help us organise the way we send requests to our 
-back-end processing algorithm endpoint and then send this ordered requests to our cruciality endpoint.
+final request to our processing algorithm. The time it takes for our cruciality endpoint to process the requests is 
+logaritmic - *log2(n)*, where **n** is the amount of companies provided by the customer. Because of this we'd like to 
+prioritise processing requests where the number of companies is larger. Your task is to help us organise the way we send 
+requests to our back-end processing algorithm endpoint and then send this ordered requests to our cruciality endpoint.
 
 In order to implement your task you need to create a Java application where you will handle the given information, arrange 
 it and finally send it to the cruciality endpoint.
