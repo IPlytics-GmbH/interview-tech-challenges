@@ -1,7 +1,7 @@
 Arranging Cruciality Requests
 ------------------------------
 
-Our system processes different kinds of information for our customers. One of our analyses, called "cruciality analyses", 
+Our system processes different kinds of information for our customers. One of our analyses, called "cruciality analysis", 
 runs based on a set of companies provided as a parameter. Our back-end application receives this information and sends a 
 final request to our processing algorithm. The time it takes for us to process the requests is logaritmic - *log2(n)*, 
 where **n** is the amount of companies provided by the customer. Because of this we'd like to prioritise processing 
