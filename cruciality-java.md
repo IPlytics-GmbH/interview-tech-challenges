@@ -11,7 +11,7 @@ requests to our back-end processing algorithm endpoint and then send this ordere
 Lately our application has grown in popularity. Ranking 1st in our field we have millions of customers sending their 
 cruciality requests. Because of this you should know that picking a good solution to keep the data sorted is crucial for our
 task. You could think that for the example data a list is enough, but you need to make it usable for cases where the amount
-of requests in line is constantly growing and being updated.
+of requests from our millions of customers is constantly growing and being updated.
 
 In order to implement your task you need to create a Java application where you will handle the given information, arrange 
 it and finally send it to the cruciality endpoint.
